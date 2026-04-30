@@ -1,4 +1,4 @@
-package net.mcreator.demojavaplugin;
+package com.mealam.cobble;
 
 import net.mcreator.plugin.JavaPlugin;
 import net.mcreator.plugin.Plugin;
