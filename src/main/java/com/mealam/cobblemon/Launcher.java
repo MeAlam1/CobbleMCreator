@@ -1,4 +1,4 @@
-package net.nerdypuzzle.geckolib;
+package com.mealam.cobblemon;
 
 import net.mcreator.plugin.JavaPlugin;
 import net.mcreator.plugin.Plugin;
