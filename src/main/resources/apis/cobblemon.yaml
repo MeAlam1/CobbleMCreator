@@ -11,7 +11,6 @@ neoforge-1.21.1:
     }
     
     dependencies {
-      compileOnly("com.cobblemon:mod:1.7.3+1.21.1")
       implementation("com.cobblemon:neoforge:1.7.3+1.21.1")
       implementation("thedarkcolour:kotlinforforge-neoforge:5.10.0") {
         exclude group: "net.neoforged.fancymodloader", module: "loader"

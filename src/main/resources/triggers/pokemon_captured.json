@@ -1,0 +1,38 @@
+{
+  "dependencies_provided": [
+    {
+      "name": "pokemon",
+      "type": "entity"
+    },
+    {
+      "name": "player",
+      "type": "entity"
+    },
+    {
+      "name": "poke_ball",
+      "type": "entity"
+    },
+    {
+      "name": "item",
+      "type": "itemstack"
+    },
+    {
+      "name": "world",
+      "type": "world"
+    },
+    {
+      "name": "x",
+      "type": "number"
+    },
+    {
+      "name": "y",
+      "type": "number"
+    },
+    {
+      "name": "z",
+      "type": "number"
+    }
+  ],
+  "cancelable": "false",
+  "has_result": "false"
+}

@@ -1,6 +1,7 @@
 <#-- @formatter:off -->
 package ${package};
 
+import ${package}.cobblemon.${JavaModName}Cobblemon;
 import net.neoforged.neoforge.event.tick.ServerTickEvent;
 
 import org.apache.logging.log4j.LogManager;
@@ -19,6 +20,8 @@ import org.apache.logging.log4j.Logger;
 		NeoForge.EVENT_BUS.register(this);
 
 		modEventBus.addListener(this::registerNetworking);
+
+		${JavaModName}Cobblemon.register();
 
 		<@javacompress>
 		<#if w.hasSounds()>${JavaModName}Sounds.REGISTRY.register(modEventBus);</#if>
@@ -48,6 +51,8 @@ import org.apache.logging.log4j.Logger;
 
 	// Start of user code block mod methods
 	// End of user code block mod methods
+
+
 
 	<#-- Networking support below -->
 	private static boolean networkingRegistered = false;

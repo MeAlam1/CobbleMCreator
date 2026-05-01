@@ -1,0 +1,6 @@
+base_templates:
+  - template: modbase/mod.java.ftl
+    name: "@SRCROOT/@BASEPACKAGEPATH/@JavaModName.java"
+  - template: cobblemon/cobblemon_entrypoint.java.ftl
+    name: "@SRCROOT/@BASEPACKAGEPATH/cobblemon/@JavaModNameCobblemon.java"
+    _merge_policy: append
