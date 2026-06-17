@@ -1,0 +1,14 @@
+{
+  "dependencies_provided": [
+    {
+      "name": "pokemon",
+      "type": "pokemon"
+    },
+    {
+      "name": "fainted_timer",
+      "type": "number"
+    }
+  ],
+  "cancelable": "false",
+  "has_result": "false"
+}

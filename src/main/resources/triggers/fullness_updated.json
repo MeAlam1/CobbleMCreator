@@ -1,0 +1,14 @@
+{
+  "dependencies_provided": [
+    {
+      "name": "pokemon",
+      "type": "pokemon"
+    },
+    {
+      "name": "new_fullness",
+      "type": "number"
+    }
+  ],
+  "cancelable": "false",
+  "has_result": "false"
+}

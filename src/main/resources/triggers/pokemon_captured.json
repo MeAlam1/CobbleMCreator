@@ -2,7 +2,7 @@
   "dependencies_provided": [
     {
       "name": "pokemon",
-      "type": "entity"
+      "type": "pokemon"
     },
     {
       "name": "player",
@@ -10,7 +10,7 @@
     },
     {
       "name": "poke_ball",
-      "type": "entity"
+      "type": "entity" // TODO: FIX
     },
     {
       "name": "item",
