@@ -1,0 +1,18 @@
+{
+  "dependencies_provided": [
+    {
+      "name": "pokemon",
+      "type": "pokemon"
+    },
+    {
+      "name": "original_result",
+      "type": "logic"
+    },
+    {
+      "name": "result",
+      "type": "logic"
+    }
+  ],
+  "cancelable": "false",
+  "has_result": "false"
+}

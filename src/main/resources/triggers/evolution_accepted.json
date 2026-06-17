@@ -1,0 +1,10 @@
+{
+  "dependencies_provided": [
+    {
+      "name": "pokemon",
+      "type": "pokemon"
+    }
+  ],
+  "cancelable": "true",
+  "has_result": "false"
+}
