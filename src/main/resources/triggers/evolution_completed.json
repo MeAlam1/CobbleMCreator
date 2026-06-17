@@ -1,0 +1,14 @@
+{
+  "dependencies_provided": [
+    {
+      "name": "pokemon",
+      "type": "pokemon"
+    },
+    {
+      "name": "source_pokemon",
+      "type": "pokemon"
+    }
+  ],
+  "cancelable": "true",
+  "has_result": "false"
+}
