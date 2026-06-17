@@ -3,13 +3,13 @@ public ${name}Procedure() {
     CobblemonEvents.SHOULDER_MOUNT.subscribe(event -> {
     	<#assign dependenciesCode>
     	    <@procedureDependenciesCode dependencies, {
-    		"x": "event.getPos().getX()",
-    		"y": "event.getPos().getY()",
-    		"z": "event.getPos().getZ()",
+    		"x": "event.getPlayer().getX()",
+    		"y": "event.getPlayer().getY()",
+    		"z": "event.getPlayer().getZ()",
             "player": "event.getPlayer()",
-    		"world": "event.getLevel()",
+    		"world": "event.getPlayer().level()",
     		"pokemon": "event.getPokemon()",
-    		"is_left": "event.getIsLeft()"
+    		"is_left": "event.isLeft()"
     		}/>
     	</#assign>
     	execute(${dependenciesCode});

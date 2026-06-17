@@ -2,7 +2,7 @@
   "dependencies_provided": [
     {
       "name": "pokemon",
-      "type": "entity"
+      "type": "pokemon"
     },
     {
       "name": "player",

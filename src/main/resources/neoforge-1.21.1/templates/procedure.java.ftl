@@ -1,16 +1,21 @@
 <#-- @formatter:off -->
 package ${package}.procedures;
 
+<#assign excludedFromNullCheck = [
+	"number",
+	"world",
+	"itemstack",
+	"blockstate",
+	"actionresulttype",
+	"logic",
+	"cmdcontext"
+]/>
+
 <#assign nullableDependencies = []/>
+
 <#if !(data.skipDependencyNullCheck)>
 	<#list dependencies as dependency>
-		<#if dependency.getRawType() != "number"
-			&& dependency.getRawType() != "world"
-			&& dependency.getRawType() != "itemstack"
-			&& dependency.getRawType() != "blockstate"
-			&& dependency.getRawType() != "actionresulttype"
-			&& dependency.getRawType() != "logic"
-			&& dependency.getRawType() != "cmdcontext">
+		<#if !excludedFromNullCheck?seq_contains(dependency.getRawType())>
 			<#assign nullableDependencies += [dependency.getName()]/>
 		</#if>
 	</#list>
@@ -26,14 +31,15 @@ public class ${name}Procedure {
 
 	public static <#if return_type??>${return_type.getJavaType(generator.getWorkspace())}<#else>void</#if> execute(
 		<#list dependencies as dependency>
-				${dependency.getType(generator.getWorkspace())} ${dependency.getName()}<#sep>,
+			${dependency.getType(generator.getWorkspace())} ${dependency.getName()}<#sep>,
 		</#list>
 	) {
+
 		<#if nullableDependencies?has_content>
 			if(
-			<#list nullableDependencies as dependency>
-			${dependency} == null <#sep>||
-			</#list>
+				<#list nullableDependencies as dependency>
+					${dependency} == null<#sep> || 
+				</#list>
 			) return <#if return_type??>${return_type.getDefaultValue(generator.getWorkspace())}</#if>;
 		</#if>
 
