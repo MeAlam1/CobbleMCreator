@@ -15,7 +15,7 @@
     "version": "1.0.0",
     "description": "Adds Cobblemon support to MCreator.",
     "author": "MeAlam",
-    "pluginPageID": 0,
+    "pluginPageID": 123668,
     "updateJSONURL": "https://raw.githubusercontent.com/MeAlam1/CobbleMCreator/master/update.json"
   }
 }
