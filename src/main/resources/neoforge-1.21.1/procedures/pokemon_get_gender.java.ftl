@@ -1,0 +1,1 @@
+(${input$pokemon}.getGender().getSerializedName())

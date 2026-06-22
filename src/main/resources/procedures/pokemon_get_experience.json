@@ -1,0 +1,19 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "pokemon",
+      "check": "pokemon"
+    }
+  ],
+  "inputsInline": true,
+  "output": "Number",
+  "colour": "%{BKY_MATH_HUE}",
+  "mcreator": {
+    "toolbox_id": "pokemon",
+    "toolbox_init": [],
+    "inputs": [
+      "pokemon"
+    ]
+  }
+}
