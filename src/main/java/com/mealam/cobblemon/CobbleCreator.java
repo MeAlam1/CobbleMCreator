@@ -8,16 +8,16 @@ import org.apache.logging.log4j.Logger;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Launcher extends JavaPlugin {
+public class CobbleCreator extends JavaPlugin {
 
-	public static final Logger LOG = LogManager.getLogger("Cobblemon Plugin");
+	private static final Logger LOGGER = LogManager.getLogger(CobbleCreator.class);
 	public static Set<Plugin> PLUGIN_INSTANCE = new HashSet<>();
 
-	public Launcher(Plugin pPlugin) {
+	public CobbleCreator(Plugin pPlugin) {
 		super(pPlugin);
 		PLUGIN_INSTANCE.add(pPlugin);
 
-		LOG.info("Plugin was loaded");
+		LOGGER.info("Plugin was loaded");
 	}
 
 

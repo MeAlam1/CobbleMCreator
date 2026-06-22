@@ -1,7 +1,7 @@
 {
   "id": "cobblemon_plugin",
   "weight": 3000,
-  "javaplugin": "com.mealam.cobblemon.Launcher",
+  "javaplugin": "com.mealam.cobblemon.CobbleCreator",
   "supportedversions": [
     202600199999,
     2026001,

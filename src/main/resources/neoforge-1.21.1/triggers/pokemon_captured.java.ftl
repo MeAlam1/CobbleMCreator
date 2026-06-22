@@ -9,7 +9,7 @@ public ${name}Procedure() {
             "player": "event.getPlayer()",
     		"world": "event.getLevel()",
     		"pokemon": "event.getPokemon()",
-    		"poke_ball": "event.getPokeBallEntity()",
+    		"pokeball": "event.getPokeBallEntity()",
     		"item": "event.getPlayer().level().itemRegistry.wrapAsHolder(event.getPokeBallEntity().getPokeBall().item).asMoLangValue(Registries.ITEM)"
     		}/>
     	</#assign>

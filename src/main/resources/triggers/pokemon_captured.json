@@ -9,8 +9,8 @@
       "type": "entity"
     },
     {
-      "name": "poke_ball",
-      "type": "entity" // TODO: FIX
+      "name": "pokeball",
+      "type": "pokeball"
     },
     {
       "name": "item",
