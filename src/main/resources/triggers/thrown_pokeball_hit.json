@@ -6,7 +6,7 @@
     },
     {
       "name": "pokeball",
-      "type": "pokeball"
+      "type": "entity"
     }
   ],
   "cancelable": "true",

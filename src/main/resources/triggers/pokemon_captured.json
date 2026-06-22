@@ -10,7 +10,7 @@
     },
     {
       "name": "pokeball",
-      "type": "pokeball"
+      "type": "entity"
     },
     {
       "name": "item",
