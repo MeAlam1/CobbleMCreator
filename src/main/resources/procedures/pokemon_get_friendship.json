@@ -10,7 +10,7 @@
   "output": "Number",
   "colour": "%{BKY_MATH_HUE}",
   "mcreator": {
-    "toolbox_id": "pokemon",
+    "toolbox_id": "pokemondata",
     "toolbox_init": [],
     "inputs": [
       "pokemon"

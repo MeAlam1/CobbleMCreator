@@ -2,7 +2,8 @@
   "cobblemon_plugin": {
     "latest": "1.0.0",
     "changes": [
-      "Initial release"
+      "Initial release",
+      "https://github.com/MeAlam1/CobbleMCreator/blob/master/changelogs/1.0.0.md"
     ]
   }
 }

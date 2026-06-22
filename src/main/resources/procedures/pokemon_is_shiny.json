@@ -7,11 +7,12 @@
     }
   ],
   "inputsInline": true,
-  "output": "String",
-  "colour": "%{BKY_TEXTS_HUE}",
+  "output": "Boolean",
+  "colour": "%{BKY_LOGIC_HUE}",
   "mcreator": {
     "toolbox_id": "pokemondata",
-    "toolbox_init": [],
+    "toolbox_init": [
+    ],
     "inputs": [
       "pokemon"
     ]

@@ -10,7 +10,7 @@
   "output": "Entity",
   "colour": 195,
   "mcreator": {
-    "toolbox_id": "pokemon",
+    "toolbox_id": "pokemondata",
     "toolbox_init": [],
     "inputs": [
       "pokemon"
