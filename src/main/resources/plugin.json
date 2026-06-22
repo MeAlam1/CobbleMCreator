@@ -4,6 +4,9 @@
   "javaplugin": "com.mealam.cobblemon.CobbleCreator",
   "supportedversions": [
     202600199999,
+    2025001,
+    2025002,
+    2025003,
     2026001,
     2026002
   ],
