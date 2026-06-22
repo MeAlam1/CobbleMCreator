@@ -1,0 +1,19 @@
+{
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "pokemon",
+      "check": "pokemon"
+    }
+  ],
+  "inputsInline": true,
+  "output": "Entity",
+  "colour": 195,
+  "mcreator": {
+    "toolbox_id": "pokemon",
+    "toolbox_init": [],
+    "inputs": [
+      "pokemon"
+    ]
+  }
+}
