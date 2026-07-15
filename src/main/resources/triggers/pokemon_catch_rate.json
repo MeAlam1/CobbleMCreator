@@ -1,0 +1,22 @@
+{
+  "dependencies_provided": [
+    {
+      "name": "thrower",
+      "type": "entity"
+    },
+    {
+      "name": "pokeball",
+      "type": "entity"
+    },
+    {
+      "name": "pokemon",
+      "type": "entity"
+    },
+    {
+      "name": "catch_rate",
+      "type": "number"
+    }
+  ],
+  "cancelable": "false",
+  "has_result": "false"
+}
